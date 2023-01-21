@@ -48,7 +48,9 @@ const Home = () => {
                   filmName={element.title}
                   voteAverage={element.vote_average}
                   id={element.id}
-                  isFilm={true}
+                  route={'Pelicula'}
+                  season={null}
+                  episode={null}
                   key={index} />
               );
             }
@@ -67,7 +69,9 @@ const Home = () => {
                   filmName={element.name}
                   voteAverage={element.vote_average}
                   id={element.id}
-                  isFilm={false}
+                  route={'Serie'}
+                  season={null}
+                  episode={null}
                   key={index} />
               );
             }
